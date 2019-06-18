@@ -4,7 +4,10 @@ Demonstration of using the UI automation testing tool protractor through accessi
 website. This was used with jasmine frame work.
 
 ## Setup
-Todo
+1.) Run command "npm run webdriver-update"
+
+2.) Run command "npm run test"
+
 
 ## Built with
 * Javascript
@@ -18,6 +21,5 @@ Todo
   
 ## Running the tests
 From the cmd type, npm run test
-
 ## Authors
 * James Hood
