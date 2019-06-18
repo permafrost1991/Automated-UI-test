@@ -1,0 +1,28 @@
+{
+  "name": "typescipt",
+  "version": "1.0.0",
+  "description": "basic use of typescipt and protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor JSFiles/configuration.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "author": "James Hood",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "typescript": "~3.3.3333",
+    "jasmine": "~3.3.1",
+    "@types/jasmine": "~3.3.10",
+    "@types/jasminewd2": "~2.0.6",
+    "ts-node": "~8.0.3",
+    "@types/node": "~11.11.3",
+    "protractor-cucumber-framework": "^6.1.1",
+    "cucumber": "^5.1.0",
+    "@types/cucumber": "^4.0.5",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1"
+  }
+}
